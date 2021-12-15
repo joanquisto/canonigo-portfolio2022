@@ -1,5 +1,6 @@
 import React from "react";
 import Typical from "react-typical";
+import "./Profile.css";
 
 
 export default function Profile() {
@@ -8,6 +9,7 @@ export default function Profile() {
             <div className="profile-parent">
                 <div className="profile-details">
                     <div className="colz">
+                        <div className="colz-icon">
                         <a href="https://www.facebook.com">
                             <i className="fa fa-facebook-square"></i>
                         </a>
@@ -23,6 +25,9 @@ export default function Profile() {
                         <a href="https://github.com/joanquisto">
                             <i className="fa fa-github-square"></i>
                         </a>
+
+
+                        </div>
                     </div>
                     <div className="profile-details-name">
                         <span className="primary-text">
@@ -38,13 +43,13 @@ export default function Profile() {
                                 <Typical
                                 loop={Infinity}
                                 steps={[
-                                    "Ethusiastic Dev ☕",
+                                    "Ethusiastic Developer ☕",
                                     1000,
-                                    "Full Stack Developer😎 ",
+                                    "Full Stack Dev 😎 ",
                                     1000,
-                                    "MERN Stack Dev 💻",
+                                    "MERN Stack Dev💻",
                                     1000,
-                                    "React js Dev 📱",
+                                    "React JS Dev📱",
                                     1000,
                                     ]}
                                 />
@@ -53,16 +58,19 @@ export default function Profile() {
                                 Knack of building applications with front and back end operations.
                             </span>
                         </span>
+                        </div>
                         <div className="profile-options">
                             <button className="btn primary-btn">
                                 {""}
                                 Hire Me{" "}
                             </button>
                             <a href="ASM.doc" downlaod="ASM.doc">
-                                <button className="btn highlight-btn">Get Resume</button>
+                                <button className="btn highlighted-btn">Get Resume</button>
                             </a>
-                        </div>
                     </div>
+                </div>
+                <div className="profile-picture">
+                    <div className="profile-picture-background"></div>
                 </div>
             </div>
         </div>
