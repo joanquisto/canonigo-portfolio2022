@@ -25,7 +25,9 @@ export default function Profile() {
                         <a href="https://github.com/joanquisto">
                             <i className="fa fa-github-square"></i>
                         </a>
-
+                        <a href="https://gitlab.com/joanaq.canonigo">
+                            <i className="fa fa-gitlab"></i>
+                        </a>
 
                         </div>
                     </div>
@@ -47,15 +49,15 @@ export default function Profile() {
                                     1000,
                                     "Full Stack Dev 😎 ",
                                     1000,
-                                    "MERN Stack Dev💻",
+                                    "React JS Dev 💻",
                                     1000,
-                                    "React JS Dev📱",
+                                    "Traveler 🌍",
                                     1000,
                                     ]}
                                 />
                             </h1>
                             <span className="profile-role-tagline">
-                                Knack of building applications with front and back end operations.
+                                To be with a great company culture, and awesome colleagues to work with and help me grow.
                             </span>
                         </span>
                         </div>
